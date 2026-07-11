@@ -1,0 +1,37 @@
+{
+  "name": "pi-music-streamer",
+  "version": "1.0.0",
+  "description": "Streamer for my raspberry pi CD collection server",
+  "homepage": "https://github.com/derringercj/pi-music-streamer#readme",
+  "bugs": {
+    "url": "https://github.com/derringercj/pi-music-streamer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derringercj/pi-music-streamer.git"
+  },
+  "license": "ISC",
+  "author": "Casey Derringer",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "\"echo\\\"Error: no test specified\\\" && exit 1\"",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.2",
+    "@electron-forge/maker-deb": "^7.11.2",
+    "@electron-forge/maker-rpm": "^7.11.2",
+    "@electron-forge/maker-squirrel": "^7.11.2",
+    "@electron-forge/maker-zip": "^7.11.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.2",
+    "@electron-forge/plugin-fuses": "^7.11.2",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^43.1.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
