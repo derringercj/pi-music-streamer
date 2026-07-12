@@ -11,12 +11,25 @@
       http-equiv="X-Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
     />
-    <title>Hello from Electron renderer!</title>
+    <title>PI-Music-Streamer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css">
   </head>
   <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-    <p id="info"></p>
+    <main>
+      <nav>
+        <ul>
+          <li>Songs</li>
+          <li>Albums</li>
+          <li>Artists</li>
+        </ul>
+      </nav>
+    </main>
+    <footer>
+      <button><i class="bi bi-skip-backward-fill"></i></button>
+      <button><i class="bi bi-play-fill"></i></button>
+      <button><i class="bi bi-skip-forward-fill"></i></button>
+    </footer>
   </body>
   <script src="./renderer.js"></script>
 </html>
